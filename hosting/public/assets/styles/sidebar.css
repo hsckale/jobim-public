@@ -1,0 +1,19 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 0 0.5em;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar nav button {
+    background: none;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: .75em;
+}

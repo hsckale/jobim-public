@@ -1,0 +1,48 @@
+.album__frame__screen {
+    padding: 0 400px;
+}
+
+header.album__header {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+img.album__cover {
+    width: 300px;
+    height: 300px;
+}
+
+table.tracks__table {
+    width: 100%;
+    margin-top: 5em;
+    border-collapse: collapse;
+}
+
+table.tracks__table tr:hover td {
+    background-color: rgb(36, 36, 36);
+}
+
+table.tracks__table tr th {
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+
+table.tracks__table tr td {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+table.tracks__table tr td,
+table.tracks__table tr th {
+    padding: 1em;
+}
+
+table.tracks__table tr td:first-child,
+table.tracks__table tr th:first-child {
+    text-align: left;
+}
+
+table.tracks__table tr td:last-child,
+table.tracks__table tr th:last-child {
+    text-align: right;
+}

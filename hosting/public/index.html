@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/__/firebase/8.10.1/firebase-app.js"></script>
+  <script src="/__/firebase/8.10.1/firebase-auth.js"></script>
+  <script src="/__/firebase/8.10.1/firebase-firestore.js"></script>
+  <script src="/__/firebase/init.js?useEmulator=true"></script>
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link rel="stylesheet" href="assets/styles/login.css">
+  <title>Jobim</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Jobim</h1>
+    </header>
+    <section>
+      <h2>Fazer login</h2>
+      <div class="login__container">
+        <div class="login__input__container">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="login__input__container">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha">
+          <a href="#" id="forgot_password__button">Esqueci minha senha</a>
+        </div>
+        <button type="button" id="login_button">Fazer login</button>
+        <button type="button" id="register__button">Cadastrar-se</button>
+      </div>
+    </section>
+  </main>
+  <script src="dist/login.bundle.js"></script>
+</body>
+
+</html>

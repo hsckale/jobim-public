@@ -1,0 +1,45 @@
+* {
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+input {
+    color: black;
+}
+
+button {
+    color: black;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25em;
+    cursor: pointer;
+    transition: .1s;
+}
+
+button:hover {
+    background-color: rgb(131, 131, 131);
+}
+
+input[type=email],
+input[type=text],
+input[type=password] {
+    padding: 16px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    border: none;
+}
+
+main {
+    display: flex;
+}
+
+#screen__container {
+    width: 100%;
+}
